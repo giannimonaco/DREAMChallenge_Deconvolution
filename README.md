@@ -26,7 +26,7 @@ Install the following dependencies for your R instance:
 
 To use the method, download this repository to your local computer. 
 
-Move inside the folder containing the file "RLMdeconvolution.R" and run the R script in the following way:
+From the command line, navigate to the folder containing the file "RLMdeconvolution.R" and run the R script in the following way:
 
 ```
 Rscript ./RLMdeconvolution.R --ExprData <path/to/input/CPMexpr.csv> [--SubChallenge <coarse,fine>] [--Cancer <CRC,BRCA>]
@@ -36,6 +36,7 @@ Rscript ./RLMdeconvolution.R --ExprData <path/to/input/CPMexpr.csv> [--SubChalle
 required argument|description
 ---|---
 --ExprData <path/to/input/CPMexpr.csv> | This is the only required argument. It is where you define your input gene expression data file. The files should be a csv file with the first column containing the gene symbols and the remaining column containing the gene expression of your samples as Counts Per Million (CPM) values.
+
 
 
 optional argument|description
