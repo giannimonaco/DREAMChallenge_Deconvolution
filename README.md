@@ -22,7 +22,7 @@ Install the following dependencies for your R instance:
 * tibble 
 
 
-### Usage
+## Usage
 
 To use the method, download this repository to your local computer. 
 
@@ -34,7 +34,7 @@ Rscript ./RLMdeconvolution.R --ExprData <inputData.csv> [--SubChallenge <coarse,
 ```
 
 required argument|description
----|---
+--- | ---
 --ExprData | This is the only required argument. It is where you define your input gene expression data file. The files should be a csv file with the first column containing the gene symbols and the remaining column containing the gene expression of your samples.
 
 
