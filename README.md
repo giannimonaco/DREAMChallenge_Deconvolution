@@ -29,8 +29,8 @@ To use the method, download this repository to your local computer.
 More to the folder containing the file "RLMdeconvolution.R" and run the R script in the following way:
 
 ```
-Rscript ./RLMdeconvolution.R --ExprData <inputData.csv> [--SubChallenge <coarse,fine>] [--Cancer <CRC,BRCA>]
-[-- OutFormat <wide,long>] [--PrefixOutput <"path/to/save/Prefix">] [--Submission <first,second,third>]
+Rscript ./RLMdeconvolution.R --ExprData <path/to/input/CPMexpr.csv> [--SubChallenge <coarse,fine>] [--Cancer <CRC,BRCA>]
+[-- OutFormat <wide,long>] [--PrefixOutput <path/to/output/Prefix>] [--Submission <first,second,third>]
 ```
 
 required argument|description
