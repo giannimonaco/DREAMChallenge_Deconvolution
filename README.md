@@ -35,7 +35,7 @@ Rscript ./RLMdeconvolution.R --ExprData <path/to/input/CPMexpr.csv> [--SubChalle
 
 required argument|description
 ---|---
---ExprData <path/to/input/CPMexpr.csv> | This is the only required argument. It is where you define your input gene expression data file. The files should be a csv file with the first column containing the gene symbols and the remaining column containing the gene expression of your samples as Counts Per Million (CPM) values.
+--ExprData <path/to/input/CPMexpr.csv> | This is the only required argument. It is where you define your input gene expression data file. The files should be a csv file with the first column containing the gene symbols and the remaining columns containing the gene expression of your samples normalized as Counts Per Million (CPM).
 
 
 
