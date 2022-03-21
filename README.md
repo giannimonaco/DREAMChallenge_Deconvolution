@@ -45,7 +45,7 @@ optional argument|description
 --Cancer <CRC,BRCA> | With this option, you can choose to deconvolute also cancer cells from Colon (CRC) or Breast (BRCA) cancer.  
 -- OutFormat <wide,long> | You can choose if the results shoudl be formatted as wide or long table. The default parameter is wide.  
 -- PrefixOutput <path/to/output/Prefix> | If you want to add a prefix to your result file add it through this argument. You could also add the path where you want to save your results.  
---Submission <first,second,third> |Choose which signature matrix you want to use between the ones developed for the three submissions to the DREAM challenge. The default parameter is third, as better results were obtained for the last submission.  
+--Submission <first,second,third> |Choose which signature matrix you want to use between the ones developed for the three submissions to the DREAM challenge. The default parameter is third, as better results were obtained for the last submission for the fine subchallenge.  
 
 
   
