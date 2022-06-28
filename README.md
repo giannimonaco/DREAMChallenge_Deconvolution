@@ -56,7 +56,7 @@ This repository includes a demo dataset in the folder Demo. You can run the demo
 ```
 Rscript ./RLMdeconvolution.R --ExprData Demo/TESTdataset.csv
 ```
-The output file "prediction.csv" will be generated in the working directory. The run time on a normal laptop or desktop computer is only a few seconds
+The output file "prediction.csv" will be generated in the working directory. The run time on a normal laptop or desktop computer is only a few seconds.
 
 ## License
 This software is released under the MIT License. 
