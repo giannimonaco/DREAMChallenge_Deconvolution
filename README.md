@@ -22,8 +22,7 @@ Install the following dependencies for your R (tested with v4.2.0) instance:
 * tibble (tested with v3.1.7)
 
 ## Installation
-The installation time on a should be around 10min in a normal laptop or desktop computer
-
+The installation time on a should be around 10min in a normal laptop or desktop computer.  
 
 ## Usage
 
@@ -35,8 +34,10 @@ From the command line, navigate to the folder containing the file "RLMdeconvolut
 Rscript ./RLMdeconvolution.R --ExprData <path/to/input/CPMexpr.csv> [--SubChallenge <coarse,fine>] [--Cancer <CRC,BRCA>]
 [-- OutFormat <wide,long>] [--PrefixOutput <path/to/output/Prefix>] [--Submission <first,second,third>]
 ```
+  
 
-The only required argument is the gene expression data. The other arguments are optional. In the table below, you can find a descriptions of all arguments.
+The only required argument is the gene expression data. The other arguments are optional. In the table below, you can find a descriptions of all arguments.  
+
 
 argument|description
 ---|---
@@ -58,7 +59,7 @@ Rscript ./RLMdeconvolution.R --ExprData Demo/TESTdataset.csv
 The output file "prediction.csv" will be generated in the working directory. The run time on a normal laptop or desktop computer is only a few seconds
 
 ## License
-This software is released under an MIT License. 
+This software is released under the MIT License. 
   
 
 
