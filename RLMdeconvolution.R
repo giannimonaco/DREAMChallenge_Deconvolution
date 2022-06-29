@@ -33,8 +33,8 @@ option_list = list(
               help="Choose between CRC (Colon Cancer) or BRCA (Breast Cancer)", metavar="character"),
   make_option(c("--OutFormat"), type="character", default="wide", 
               help="Output results can be saved in either wide or long format. Choose between wide or long", metavar="character"),
-  make_option(c("--PrefixOutput"), type="character", default="", 
-              help="Prefix to add to the output file", metavar="character")
+  make_option(c("--OutFilename"), type="character", default="Predictions.csv", 
+              help="Filename to use for the output file", metavar="character")
 )
 
 opt_parser = OptionParser(option_list=option_list);
@@ -140,9 +140,9 @@ result_df_stacked <- tidyr::gather(
 ## Write result into output directory
 
 if(      opt$OutFormat == "wide"){
-  readr::write_csv(result_df, paste0(opt$PrefixOutput, "predictions.csv"))
+  readr::write_csv(result_df, opt$OutFilename)
 }else if(opt$OutFormat == "long"){
-  readr::write_csv(result_df_stacked, paste0(opt$PrefixOutput, "predictions.csv"))
+  readr::write_csv(result_df_stacked, opt$OutFilename)
 }
 
 
