@@ -60,6 +60,8 @@ The output file "Demo_Prediction.csv" will be generated in the Demo directory. T
 
 ## License
 This software is released under the MIT License. 
+
+©GianniMonaco
   
 
 
